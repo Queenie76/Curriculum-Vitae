@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+background-image: linear-gradient(#636162);
+height: 122vh;
+font-weight: bold;
+letter-spacing: 2px;
+}
+*{
+margin: 0px; padding: 0px; font-family: 'Montserrat', sans-serif;
+}
+.main{
+background-color: white;
+height: auto;
+width: 650px;
+position: absolute;
+transform: translate(-50%,-50%);
+left: 50%;
+top: 50%;
+}
+.left{
+background-color: gray;
+width: 380px;
+height: 100%;
+float: left;
+}
+.right{
+width: 550px;
+float: left;
+}
+.profile-img{
+height: 180px;
+width: 180px;
+background-color: #ddd;
+border-radius: 50%;
+margin-bottom: 20px;
+margin-left: 60px;
+border: 10px solid gray;
+box-shadow: 6px 7px 9px 5px gray;
+}
+.profile-img img{
+width: 100%;
+border-radius: 50%;
+}
+.box-1{
+position: relative;
+}
+.heading{
+background-color: #4d4d4d;
+padding: 10px;
+color: black;
+text-align: left;
+padding-left: 20px;  
+}
+.heading::after{
+content: '';
+position: absolute;
+width: 21px;
+background-color: #5a5959;
+left: 191px;
+top: 26px;
+transform: rotate(56deg);
+z-index: -1;
+}
+.p1{
+padding: 9px 10px;
+font-size: 13px;
+}
+.icons1{
+font-size: 16px;
+padding-right: 10px;
+vertical-align: sub;
+}
+.skill-container{
+width: 90%;
+background-color: #4d4d4d;
+margin: 0px 10px;
+}
+.skill{
+text-align: right;
+padding-top: 4px;
+padding-bottom: 4px;
+color: rgb(184, 123, 10);
+}
+.html{
+width: 90%;  
+}
+.p2{
+font-size: 15px;
+}
+.p3{
+font-size: 12px;
+padding: 5px;
+}
+.name-div{
+padding: 86px 10px;
+text-align: center;
+letter-spacing: 3px;
+}
+.name-div h1{
+margin-bottom: 15px;
+}
+.box-2{
+padding: 0px 50px;
+margin-top: 30px;
+}
+.p5{
+font-size: 13px;
+letter-spacing: 1px;
+word-spacing: 2px;
+line-height: 18px;
+margin-top: 5px;
+}  
+.h2{
+    font-size: 14px;
+    margin-bottom: 15px;
+} 
+.p6{
+    font-size: 15px;
+    word-spacing: 1px;
+    letter-spacing: 0px;
+    margin-top: 10px;
+
+}
+.box-3{
+    padding: 0px 50px;
+    margin-top: 30px;
+    }
+.p6 span{
+     padding-left: 25px;
+}
+
+.p7{
+    font-size: 15px;
+    word-spacing: 1px;
+    letter-spacing: 0px;
+    margin-top: 10px;
+}
+.button1{
+    background: linear-gradient(black);
+    color: black;
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-size: 100vw 100vh;
+}
+.button1 a{
+
+}
